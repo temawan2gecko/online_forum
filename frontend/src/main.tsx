@@ -5,7 +5,7 @@ import '@shared/styles/global.scss'
 import { WithRouter } from "@app/providers/WithRouter.tsx";
 import { WithStore } from "@app/providers/WithStore.tsx";
 // Компоненты
-import App from "./App.tsx";
+import App from "@app/index.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <WithRouter>
